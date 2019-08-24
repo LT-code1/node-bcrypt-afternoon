@@ -7,7 +7,7 @@ const massive = require("massive");
 
 const authCtrl = require("./controllers/authController");
 const treasureCtrl = require("./controllers/treasureController");
-const auth = require("./middleware/authMiddleware");
+const auth = require("./authMiddleware");
 
 const app = express();
 
